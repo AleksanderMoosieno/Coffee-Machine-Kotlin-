@@ -4,6 +4,6 @@ jobs:
   external-workflow:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: <something to checkout>
       - name: Greetings
         run: echo "$(<greetings.txt)"
